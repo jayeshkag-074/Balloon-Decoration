@@ -1,0 +1,33 @@
+spring:
+  name: decoration-service-local
+  datasource:
+    platform: mysql
+    type: com.zaxxer.hikari.HikariDataSource
+    url: jdbc:mysql://localhost:3306/balloon_decoration
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    hikari:
+      minimumIdle: 5
+      maximum-pool-size: 10
+      idle-time-out: 30000
+      pool-name: decoration-service-local
+      max-life-time: 2000000
+      connection-time-out: 30000
+      auto-commit: true
+  
+  jpa:
+    hibernate:
+      ddl-auto: update
+    generate-dd1: false
+    show-sql: false
+    properties:
+      hibernate:
+        show_sql: false
+        formate_sql: false
+        dialect: org.hibernate.dialect.MySQL8Dialect
+        
+server:
+  servlet:
+    context-path: /decoration-service-local
+  port: 1031

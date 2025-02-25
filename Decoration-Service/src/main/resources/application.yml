@@ -1,0 +1,4 @@
+spring:
+  name: decoration-service
+  profiles:
+    active: local
