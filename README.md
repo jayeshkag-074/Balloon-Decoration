@@ -4,7 +4,7 @@ this is a website for decoration business.
 
 A website for a balloon decoration business where customers can explore decoration designs, view packages, and submit booking enquiries for special occasions.
 
-## ✨ Features
+## ✨ Features!
 
 ### 🎉 Decoration Services
 - Birthday Decorations
