@@ -56,7 +56,7 @@ balloon-decoration/
 └── README.md
 ```
 
-## 🚀 Getting Started
+## 🚀 Getting Started!
 
 ### 1. Clone the Repository
 
