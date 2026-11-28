@@ -71,7 +71,7 @@ Open `index.html` in your browser.
 
 You can also use the Live Server extension in Visual Studio Code.
 
-## 📅 Booking Details
+## 📅 Booking Details!
 
 The booking form can collect:
 
